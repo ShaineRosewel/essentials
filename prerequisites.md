@@ -5,7 +5,7 @@ pipenv install sklearn==0.0
 pipenv install ipykernel  
 
 
-export PIPENV_VENV_IN_PROJECT=1 && pipenv --python 3.10 && pipenv shell && pipenv install sklearn==0.0 && pipenv install ipykernel && source .venv/bin/activate
+export PIPENV_VENV_IN_PROJECT=1 && pipenv --python 3.10 && pipenv shell && pipenv install ipykernel && source .venv/bin/activate
 
 # Using Dev Containers
 
