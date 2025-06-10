@@ -57,6 +57,7 @@ Click the **Render** button in RStudio or run:
 
 ```r
 quarto::quarto_render("your-doc.qmd")
+```
 
 > Make sure you have the Quarto extension installed in RStudio.
 
@@ -88,7 +89,7 @@ Commit `renv.lock` to version control, but do not commit the `renv/library/` fol
 
 ---
 
-## ✅ 5. Use Git (Optional but Recommended)
+## ✅ 6. Use Git (Optional but Recommended)
 
 Version control helps track your work:
 
@@ -99,7 +100,7 @@ Use .gitignore to exclude data or output files you don't want in version control
 
 ---
 
-## ✅ 6. Optional: Use a Quarto Project YAML
+## ✅ 7. Optional: Use a Quarto Project YAML
 If you plan to render multiple documents or need global options, create a `_quarto.yml`:
 
 ```
